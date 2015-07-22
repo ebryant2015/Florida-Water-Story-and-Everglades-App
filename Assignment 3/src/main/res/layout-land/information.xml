@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:padding="35dip">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/information" />
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="911dp"
+        android:layout_gravity="center"
+        android:stretchColumns="*">
+        <TableRow android:padding="20dp">
+            <Button
+                android:id="@+id/mmw"
+                android:layout_width="5dp"
+                android:layout_height="120dp"
+                android:text="@string/mmw"
+                android:background="@drawable/rain"
+                android:height="40dp"
+                android:textColor="#fff" />
+            <Button
+                android:id="@+id/ssf"
+                android:text="@string/ssf"
+                android:layout_width="5dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rain"
+                android:height="40dp"
+                android:textColor="#fff"
+                android:layout_marginRight="90dp" />
+        </TableRow>
+        <TableRow android:padding="20dp">
+            <Button
+                android:id="@+id/sa"
+                android:text="@string/sa"
+                android:layout_width="5dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rain"
+                android:height="40dp"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/hc"
+                android:text="@string/hc"
+                android:layout_width="5dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rain"
+                android:height="40dp"
+                android:textColor="#fff"
+                android:layout_marginRight="90dp" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
