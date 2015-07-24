@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@color/background"
+   android:gravity="center"
+   android:padding="35dip">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/title" />
+
+    <TableLayout
+      android:layout_height="wrap_content"
+      android:layout_width="600dp"
+      android:layout_gravity="center"
+      android:stretchColumns="*">
+      <TableRow android:padding="20dp"
+          android:layout_width="wrap_content">
+         <Button
+            android:id="@+id/information"
+             android:layout_width="10dp"
+             android:layout_height="90dp"
+            android:text="@string/information"
+             android:background="@drawable/rain"
+             android:height="40dp"
+             android:textColor="#fff"
+             android:layout_marginLeft="-10dp"
+             android:layout_marginRight="9dp" />
+         <Button
+            android:id="@+id/games"
+            android:text="@string/games"
+             android:layout_width="10dp"
+             android:layout_height="90dp"
+             android:background="@drawable/rain"
+             android:height="40dp"
+             android:textColor="#fff"
+             android:layout_marginLeft="-5dp"
+             android:layout_marginRight="35dp" />
+      </TableRow>
+      <TableRow android:padding="20dp">
+         <Button
+            android:id="@+id/map"
+            android:text="@string/map"
+             android:layout_width="10dp"
+             android:layout_height="90dp"
+             android:background="@drawable/rain"
+             android:height="40dp"
+             android:textColor="#fff" />
+
+      </TableRow>
+   </TableLayout>
+</LinearLayout><!-- From: file:/Users/brycecaro/StudioProjects/MODSApp/app/src/main/res/layout-land/main.xml -->

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/brycecaro/StudioProjects/MODSApp/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <array name="difficulty">
+      <item>@string/trivia</item>
+
+   </array>
+    <!-- From: file:/Users/brycecaro/StudioProjects/MODSApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background">#ff00519b</color>
+    <!-- From: file:/Users/brycecaro/StudioProjects/MODSApp/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/brycecaro/StudioProjects/MODSApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_label">About</string>
+    <string name="about_text">This will be the game</string>
+    <string name="about_title">About Android Sudoku</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Florida Water Story</string>
+    <string name="continue_label">Continue</string>
+    <string name="correct">Correct! Good job!</string>
+    <string name="exit_label">Exit</string>
+    <string name="games">Game</string>
+    <string name="hc">Hydrologic Cycle</string>
+    <string name="hc_info">Water is important to Floridians for household uses, to industry for cooling and processing, to agriculture for irrigation, and to recreationists for boating and swimming. Water sustains wildlife and is an integral part of Floridas environment. Total freshwater withdrawals from ground and surface water sources have been high, causing many Floridians to pay closer attention to plans for further development of water supplies. A better understanding of Floridas water resources is a first step toward assuring adequate future freshwater supplies. The hydrologic cycle shows how water flows in our atmosphere. The parts of the hydrologic cycle include evaporation, condensation, precipitation, transpiration, runoff, and infiltration. Evaporation is when the sun heats up water in rivers or lakes or the ocean and turns it into vapor or steam. The water vapor or steam leaves the river, lake or ocean and goes into the air. Water may also go into the air as water vapor through transpiration. This process occurs when water escapes from plants and their leaves. Water vapor in the air gets cold and changes back into liquid, forming clouds. This is called condensation. Precipitation occurs when so much water has condensed that the air cannot hold it anymore.  The clouds get heavy and water falls back to the earth in the form of rain, hail, sleet or snow. When water falls back to earth as precipitation, it may fall back in the oceans, lakes or rivers or it may end up on land.  When it ends up on land, it will soak into the earth and become part of the “ground water” that plants and animals use to drink. This is known as infiltration. Runoff is precipitation that did not get (infiltrated) absorbed into the soil, or did not evaporate, and therefore made its way from the ground surface into places that water collect.
+</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hints_summary">Show hints during play</string>
+    <string name="hints_title">Hints</string>
+    <string name="incorrect">Incorrect! Try Again.</string>
+    <string name="info">Information</string>
+    <string name="information">Information</string>
+    <string name="main_title">Florida\nWater Story</string>
+    <string name="map">Map</string>
+    <string name="mmw">Mans Manipulation of Water</string>
+    <string name="mmw_info">The Department of Environmental Protection is included in dealing with the quality and amount of water through its association with the states five water administration regions: Northwest Florida Water Management District, Suwannee River Water Management District, St. Johns River Water Management District, South Florida Water Management District, and Southwest Florida Water Management District.  The water management districts administer flood protection programs and perform technical investigations into water resources. The districts also develop water management plans for water shortages in times of drought and to gain and oversee lands for water administration purposes under the Save Our Rivers program. Administrative projects appointed to the regions incorporate projects to deal with the immoderate utilization of water, aquifer recharge, well development and surface water administration. As a major aspect of their surface water administration programs, the areas regulate the Departments stormwater administration program. This expands the locales contacts with nearby governments by guiding the regions to help with the advancement of the water components in neighborhood government comprehensive plans.</string>
+    <string name="mp">Map</string>
+    <string name="music_summary">Play background music</string>
+    <string name="music_title">Music</string>
+    <string name="new_game_label">New Game</string>
+    <string name="new_game_title">Play Game?</string>
+    <string name="next">Next Question</string>
+    <string name="question1">Which process is not part of the hydrologic cycle?</string>
+    <string name="question2">The principle source of water for the vast majority of Florida is...</string>
+    <string name="question3">The Department of Environmental Protection contains how many districts across Florida?</string>
+    <string name="question4">Transpiration is most similar to the process of...</string>
+    <string name="question5">Which is not a potential consequence of surface sheet flow?</string>
+    <string name="question6">What is the name of the main aquifer in Florida?</string>
+    <string name="question7">Surface sheet flow has the biggest effect on which of the following?</string>
+    <string name="sa">Subterranean Aquifer</string>
+    <string name="sa_info">The principle source of water for the vast majority of the upper east and central Florida originates from underground aquifers. Aquifers can be considered as tremendous underground, permeable rocks that hold water and permit water to travel through the openings inside of the stone. Aquifers can be made out of diverse sorts of earthen materials, for example, sand, shell and limestone. Fresh and salt water fill the different estimated gaps in the stone. Freshwater for the most part fills the highest piece of aquifers, while salt water is available at greater depths. In a few zones, water in an aquifer is limited or overlain by a thick layer of mud and after that by more sandy soil reaching out up to the lands surface. Where water in an aquifer is bound, the water is under weight. The weight permits water to ascend in a well over the highest point of the aquifer and, in a few spots, water transcends the lands surface without a pump, making an artesian free-streaming admirably.  Florida has a few productive aquifers that yield extensive amounts of water to wells, streams, lakes, and a portion of the worlds biggest springs. The main source of groundwater for the majority of the state is the Floridan aquifer—the source of the city water supply for the urban communities of Jacksonville,Tallahassee, Gainesville, Daytona Beach, Orlando, Tampa, and St. Petersburg. It additionally yields water to a huge number of residential, mechanical, and watering system wells all through the state. Thick layers of permeable limestone of the Floridan aquifer underlie the greater part of the state, although in South Florida the water it contains is too salty to be usable. But in those zones where its limestone developments break the surface of the ground, the Floridan aquifer underlies a few hundred feet of sediment, including thick beds of generally impermeable material that confine upward development of the water. This confinement causes the aquifer to have artesian pressure. Water in the Floridan aquifer is renewed by precipitation in central and northern Florida, where the aquifer emerges at the surface or is secured by penetrable materials, or where the keeping material is separated by sinkholes.
+</string>
+    <string name="settings_label">Settings...</string>
+    <string name="settings_shortcut">s</string>
+    <string name="settings_title">Sudoku settings</string>
+    <string name="ssf">Surface Sheet Flow</string>
+    <string name="ssf_info">Our state of Florida is on an incline, meaning it is more elevated in the north than in the south. This results in a phenomenon known as surface sheet flow, or the flow of water that occurs when excess stormwater, meltwater, or other sources flows over the earths surface. In Florida, water generally flows from north to south over the land. Sheet flow is a major component of the water cycle, and it is the primary agent in soil erosion by water. Urbanization increases sheet flow by creating more impervious surfaces, such as pavement and buildings, that do not allow for the absorption of the water down through the soil to the aquifer. Other consequences include flooding, human health risk, and ecosystem disturbance. Surface sheet flow is highly important for Floridas environment, especially the Everglades. Flow typically is shallow and slow in the wetlands, and it is controlled by the topographic gradient, the high internal resistance of submerged aquatic plants and emergent vegetation, and to a lesser extent by water levels, microtopography, and meteorological factors. Minerals, contaminants, and other particulate matter can reside in surface sheet flow, potentially having a great impact on the Everglades ecosystem, which is why its vital to keep our waters clean and pollutant-free.</string>
+    <string name="title_activity_mmw">Man\'s Manipulation Of Water</string>
+    <string name="title_activity_ssf">SSF</string>
+    <string name="trivia">Trivia Game</string>
+    <string name="water_flow_sim">Water Flow Simulator</string>
+</resources>

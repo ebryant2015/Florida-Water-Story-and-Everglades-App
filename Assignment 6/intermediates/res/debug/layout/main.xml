@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="30dip"
+    android:weightSum="1"
+    android:id="@+id/ok"
+    android:background="@drawable/waves"
+    android:theme="@android:style/Theme.NoTitleBar">
+
+    <Button
+        android:id="@+id/information"
+        android:layout_width="260dp"
+        android:layout_height="130dp"
+        android:text="@string/information"
+        android:background="@drawable/seaweedbutton"
+        android:height="35dp"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:id="@+id/games"
+        android:layout_width="260dp"
+        android:layout_height="130dp"
+        android:text="@string/games"
+        android:height="35dp"
+        android:background="@drawable/seaweedbutton"
+        android:textColor="#fff"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/information"
+        android:layout_toRightOf="@+id/information" />
+    <Button
+        android:id="@+id/map"
+        android:layout_width="260dp"
+        android:layout_height="130dp"
+        android:text="@string/map"
+        android:height="35dp"
+        android:background="@drawable/seaweedbutton"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:layout_below="@+id/information"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/thanks"
+        android:background="@drawable/museum"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:id="@+id/imageView7"
+        android:background="@drawable/shell"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout><!-- From: file:/Users/brycecaro/StudioProjects/MODSApp/app/src/main/res/layout/main.xml -->

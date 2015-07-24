@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waves"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/mmw"
+        android:text="@string/mmw"
+        android:background="@drawable/orangefish"
+        android:layout_width="270dp"
+        android:layout_height="158dp"
+        android:height="35dp"
+        android:textColor="#fff"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textSize="26sp"
+        android:gravity="center_horizontal|top"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/ssf"
+        android:background="@drawable/bluefish"
+        android:layout_width="270dp"
+        android:layout_height="158dp"
+        android:text="@string/ssf"
+        android:height="35dp"
+        android:textColor="#fff"
+        android:typeface="serif"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:gravity="center_horizontal|top"
+        android:layout_below="@+id/mmw"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/sa"
+        android:background="@drawable/orangefish"
+        android:layout_width="270dp"
+        android:layout_height="158dp"
+        android:text="@string/sa"
+        android:height="35dp"
+        android:textColor="#fff"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textSize="26sp"
+        android:gravity="center_horizontal|top"
+        android:layout_below="@+id/ssf"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/hc"
+        android:background="@drawable/bluefish"
+        android:layout_width="270dp"
+        android:layout_height="158dp"
+        android:text="@string/hc"
+        android:height="35dp"
+        android:textColor="#fff"
+        android:textStyle="bold|normal"
+        android:typeface="serif"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textSize="26sp"
+        android:gravity="center_horizontal|top"
+        android:layout_below="@+id/sa"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/info"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="65sp"
+        android:layout_marginBottom="70dp" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="600dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/seaweed"
+        android:layout_below="@+id/mmw"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

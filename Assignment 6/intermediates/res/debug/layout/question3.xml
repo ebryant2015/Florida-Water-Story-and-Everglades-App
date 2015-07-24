@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff71fff4">
+
+    <TextView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/question3"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:textColor="#00aeef"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:text="three"
+        android:id="@+id/answera"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:background="@drawable/button"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:text="four"
+        android:id="@+id/answerb"
+        android:layout_below="@+id/answera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:background="@drawable/button"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#fff" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/border"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:text="five"
+        android:id="@+id/answerc"
+        android:layout_below="@+id/answerb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:background="@drawable/button"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#fff" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:text="six"
+        android:id="@+id/answerd"
+        android:layout_below="@+id/answerc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:background="@drawable/button"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#fff" />
+
+</RelativeLayout><!-- From: file:/Users/brycecaro/StudioProjects/MODSApp/app/src/main/res/layout/question3.xml -->
